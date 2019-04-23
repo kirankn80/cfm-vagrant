@@ -33,8 +33,8 @@ pip install junos-eznc
 
 ## vQFX Box Addition
 cd /var/tmp
-wget http://10.84.5.120/cs-shared/images/vagrant-boxes/vqfx-re-virtualbox.box
-wget http://10.84.5.120/cs-shared/images/vagrant-boxes/vqfx10k-pfe-virtualbox.box
+wget http://10.204.217.158/images/kirankn/vqfx-re-virtualbox.box
+wget http://10.204.217.158/images/kirankn/vqfx10k-pfe-virtualbox.box
 
 vagrant box add --name juniper/vqfx10k-re /var/tmp/vqfx-re-virtualbox.box
 vagrant box add --name juniper/vqfx10k-pfe /var/tmp/vqfx10k-pfe-virtualbox.box
