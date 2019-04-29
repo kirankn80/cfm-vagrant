@@ -40,7 +40,7 @@ vagrant box add --name juniper/vqfx10k-re /var/tmp/vqfx-re-virtualbox.box
 vagrant box add --name juniper/vqfx10k-pfe /var/tmp/vqfx10k-pfe-virtualbox.box
 
 # Download and Addd CentOS-7.5 Box
-vagrant box add qarham/CentOS7.5-350GB
+vagrant box add kirankn/centOS-7.5
 
 
 echo "List Box"
