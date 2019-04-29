@@ -36,7 +36,7 @@ Frist step is prepartion of host machine and the host can be running an Ubuntu o
 ```bash
 yum install -y git
 cd /root
-git clone https://github.com/qarham/cfm-vagrant.git
+git clone https://github.com/kirankn80/cfm-vagrant.git
 cd cfm-vagrant/scripts
 chmod +x setup_*
 
@@ -85,7 +85,7 @@ vagrant box add qarham/CentOS7.5-350GB
 vagrant box list
     juniper/vqfx10k-pfe    (virtualbox, 0)
     juniper/vqfx10k-re     (virtualbox, 0)
-    qarham/CentOS7.5-350GB (virtualbox, 1.0)
+    kirankn/centOS-7.5 (virtualbox, 1.0)
  ```
 
 ## 1x1 vQFX and 7 nodes Setup (Bringing Up)
