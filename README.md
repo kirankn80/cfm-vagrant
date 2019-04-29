@@ -71,15 +71,15 @@ Note: This step will speed up creation of whole setup topology.
 ```bash
 cd /var/tmp
 # Download vqfx re and pfe boxes from following link
-wget http://10.84.5.120/cs-shared/images/vagrant-boxes/vqfx-re-virtualbox.box
-wget http://10.84.5.120/cs-shared/images/vagrant-boxes/vqfx10k-pfe-virtualbox.box 
+wget http://10.204.217.158/images/kirankn/vqfx-re-virtualbox.box
+wget http://10.204.217.158/images/kirankn/vqfx10k-pfe-virtualbox.box
 
 # Add vagrant boxes using following command
 vagrant box add --name juniper/vqfx10k-re /var/tmp/vqfx-re-virtualbox.box
 vagrant box add --name juniper/vqfx10k-pfe /var/tmp/vqfx10k-pfe-virtualbox.box
 
 # Download CentOS 350GB Box from Vagrant Cloud, specially created for Contrail disk size requirmenet
-vagrant box add qarham/CentOS7.5-350GB
+vagrant box add kirankn/centOS-7.5
 
 # Check all the boxes added successfully and available 
 vagrant box list
