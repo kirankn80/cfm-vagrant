@@ -1,5 +1,5 @@
 global_configuration:
-  CONTAINER_REGISTRY: 10.204.217.152:5010
+  CONTAINER_REGISTRY: nodei40.englab.juniper.net:5010
   REGISTRY_PRIVATE_INSECURE: True
 provider_config:
   bms:
