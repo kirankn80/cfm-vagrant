@@ -23,7 +23,9 @@ systemctl start docker
 vi /etc/docker/daemon.json
 
 # Add following line to the file
-{"insecure-registries": ["ci-repo.englab.juniper.net:5010"]}
+{
+  "insecure-registries" : ["nodei40.englab.juniper.net:5010"]
+}
 
 # Svae changes & restart docker
 systemctl restart docker
