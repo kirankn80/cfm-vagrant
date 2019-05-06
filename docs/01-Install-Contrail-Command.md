@@ -48,23 +48,12 @@ vi command_servers.yml
 
 ```bash
 # Use following command for internal registry
-docker pull ci-repo.englab.juniper.net:5010/contrail-command-deployer:5.0-214
+docker pull nodei40.englab.juniper.net:5010/contrail-command-deployer:5.1-35
 
-docker run -t --net host -v /opt/command_servers.yml:/command_servers.yml -d --privileged --name contrail_command_deployer ci-repo.englab.juniper.net:5010/contrail-command-deployer:5.0-214
+docker run -t --net host -v /opt/command_servers.yml:/command_servers.yml -d --privileged --name contrail_command_deployer nodei40.englab.juniper.net:5010/contrail-command-deployer:5.1-35
+
  ```
 
-* External Repo "hub.juniper.net"
-
-```bash
-# For external use following steps
-docker login hub.juniper.net/contrail
-# Provide username/password
-# Once login pull Contrail Command image using
-docker pull hub.juniper.net/contrail/contrail-command-deployer:5.0.1-0.214
-
-# AFter that please use following command to bring contrail command up.  
-docker run -t --net host -v /opt/command_servers.yml:/command_servers.yml -d --privileged --name contrail_command_deployer hub.juniper.net/contrail/contrail-command-deployer:5.0.1-0.214
- ```
 
 ***Note*** Reference [Contrail Comman Servers File](https://raw.githubusercontent.com/qarham/cfm-vagrant/master/docs/scripts/command_servers.yml)
 
