@@ -37,6 +37,7 @@ systemctl restart docker
 ```bash
 cd /opt
 wget https://raw.githubusercontent.com/kirankn80/cfm-vagrant/master/docs/scripts/command_servers.yml
+wget https://raw.githubusercontent.com/kirankn80/cfm-vagrant/master/docs/scripts/instances.yml
 
 # Now please make changes in config file
 vi command_servers.yml
