@@ -157,7 +157,7 @@ Note: For lab workshop the script is already in "/home/vagrant" folder
 
 ```bash
 
-wget https://raw.githubusercontent.com/qarham/cfm-vagrant/master/cfm-1x1-vqfx-7srv/scripts/install-os-clinet-images.sh
+wget https://raw.githubusercontent.com/kirankn80/cfm-vagrant/master/cfm-1x1-vqfx-7srv/scripts/install-os-clinet-images.sh
 chmod +x install-os-clinet-images.sh
 
 ./install-os-clinet-images.sh
@@ -176,7 +176,7 @@ This script will perform following actions:
 * Instantiate two VMs in each VN (VN01 & VN02)
 
 ```bash
-wget https://raw.githubusercontent.com/qarham/cfm-vagrant/master/cfm-1x1-vqfx-7srv/scripts/basic-sanity-test.sh
+wget https://raw.githubusercontent.com/kirankn80/cfm-vagrant/master/cfm-1x1-vqfx-7srv/scripts/basic-sanity-test.sh
 
 chmod +x basic-sanity-test.sh
 
