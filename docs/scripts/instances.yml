@@ -44,7 +44,7 @@ instances:
         TSN_EVPN_MODE: true
         VROUTER_GATEWAY: 172.16.1.1
 contrail_configuration:
-  CONTRAIL_VERSION: master-459
+  CONTRAIL_VERSION: 5.1-35
   CLOUD_ORCHESTRATOR: openstack
   RABBITMQ_NODE_PORT: 5673
   VROUTER_GATEWAY: 172.16.2.1
